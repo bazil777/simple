@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav-wrapper">
+            <div class="left-side">
+                <div class="nav-link-wrapper active-nav-link">
+                     <a href="index.html">insight music</a>
+                </div>
+                <div id= menus class="test-overlay">
+                    <a href="javascript:void(0)" class="test-close" onclick="closeMenu()">&times;</a>
+                    <div class="test-overlay-content">
+                       <a href="index.html">Home</a>
+                       <a href="galleries.html">Galleries</a>
+                       <a href="about.html">About</a>
+                       <a href="about.html">Contact</a>
+                    </div>
+                 </div>
+
+                <!-- <div class="menu-container" onclick="animateMenu(this)"> -->
+                <div class="menu-container" onclick= "openMenu(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </div>
+
+            <!-- <div class="right-side">
+                <div class="brand">
+                     <div>*Socials*</div>
+                </div>
+            </div> -->
+        </div>
+
+
+        <div class="wrapper">
+            <div class="mega-menu">
+                <ul>
+                    <li><a href="index.html">Home</a>
+                        <!-- <div class="sub-menu">
+                            <div class="col1">
+                                <ul>
+                                    <a><li>LIVE MUSIC: IN PHOTOS</li></a>
+                                    <a href="vamps.html"><li>THE VAMPS</li></a>
+                                    <a href="bmth.html"><li>BRING ME THE HORIZON</li></a>
+                                    <a href="bmth.html"><li>You Me At 6</li></a>
+                                    <a href="bmth.html"><li>W24</li></a>
+                                    <a href="bmth.html"><li>BEABADOOBEE</li></a>
+                                    <a href="bmth.html"><li>AJR BROTHERS</li></a>
+                                    <a href="bmth.html"><li>PIANWOO</li></a>
+                                </ul>
+                             </div>
+                             <div class="col1">
+                                <ul>
+                                    <a href="galleries.html"><li>ALL GALLERIES</li></a>
+                                    <a href="about.html"><li>About us</li></a>
+                                </ul>
+                             </div>
+                             <div class="col">
+                                <a href ="vamps.html"><img src="images/thevamps5.JPG" alt="The Vamps:2021"></a>
+                                <p>The Vamps: Cherry Blossom Tour - Liverpool 2021</p>
+                            </div>
+                            <div class="col">
+                                <a href ="bmth.html"><img src="images/BMTH1.jpg" alt="Bring me the horizon"></a>
+                                <p>Bring Me The Horizon - Live at the O2 Arena London</p>
+                            </div>
+                        </div> -->
+                    
+                    </li>
+                    <!-- <li><a href="bmth.html">Featured</a>
+                        <div class="sub-menu">
+                            <div class="col2">
+                                <p>Our latest concert photos</p>
+                            </div>
+                            <div class="col2">
+                                <a href ="bmth.html"><img src="images/BMTH4.JPG" alt="bring me the horizon"></a>
+                            </div>
+                            <div class="col2">
+                                <a href ="bmth.html"><img src="images/BMTH6.JPG" alt="bring me the horizon"></a>
+                            
+                            </div>
+                            <div class="col2">
+                                <a href ="bmth.html"><img src="images/BMTH7.JPG" alt="bring me the horizon"></a>
+
+                            </div>
+                        </div>
+                    </li> -->
+
+                    <li><a href="galleries.html">Galleries</a>
+                        <div class="sub-menu">
+                            <div class="col6">
+                                <a href ="vamps.html"><h5>The Vamps</h5></a><h5>
+                                <a href ="g-ajr.html"><h5>AJR Brothers</h5></a><h5>
+                                <a href ="g-tyne.html"><h5>THE TYNE</h5></a><h5>
+                                <a href ="g-jaykae.html"><h5>JayKae</h5></a><h5>
+                                <a href ="g-lunar.html"><h5>The Lunar Year</h5></a><h5>
+                            
+                            </div>
+                            <div class="col6">
+                                <a href ="bmth.html"><h5>Bring Me The Horizon</h5></a><h5>
+                                <a href ="g-beabadoobee.html"><h5>BeaBaDooBee</h5></a><h5>
+                                <a href ="g-w24.html"><h5>W24</h5></a><h5>
+                                <a href ="g-pianwoo.html"><h5>Pianwoo</h5></a><h5>
+                                <a href ="g-flawes.html"><h5>Flawes</h5></a><h5>
+                            </div>
+                            <div class="col6">
+                                <a href ="g-yma6.html"><h5>You Me At Six</h5></a><h5></h5>
+                                <a href ="g-not3s.html"><h5>Not3s</h5></a><h5>
+                                <a href ="g-frankie.html"><h5>Frankie</h5></a><h5>
+                                <a href ="g-jc.html"><h5>JC STEWART</h5></a><h5>
+                                <a href ="g-macwetha.html"><h5>macwetha</h5></a><h5>
+                            </div>
+                    </li>
+                    <li><a>Photographers</a>
+                        <div class="sub-menu">
+                            <div class="col3">
+                                <h2>
+                                    COMING SOON
+                                </h2>
+                                <p>
+                                    Watch This Space :)
+                                </p>
+                            </div>
+                    
+                    </li>
+                    <li><a href="about.html">About</a>
+                        <div class="sub-menu">
+                            <div class="col3">
+                                <h4>
+                                    About Us
+                                </h4>
+                                <p>We are a Entertainment Publication covering live music across the UK.</p>
+                                <p> We regularly post live concert reviews and live music photography.</p> 
+                            </div>
+                    
+                    </li>
+                    <li><a>Contact</a>
+                        <div class="sub-menu">
+                            <div class="col3">
+                                <h4>
+                                    Contact Details
+                                </h4>
+                                <p>For all enquiries contact us at insightmusicmag@gmail.com</p>
+                            </div>
+                        </div>
+                    
+                    </li>
+                    
+                </ul>
+            </div>
+            <div class="margin">
+                <section class="paralax">
+                    <div class="paralax-inner">
+                        <h1>Home</h1>
+                    </div>
+                </section>
+            </div>
+            <div class="content-wrapper">
+                <div class="portfolio-items-wrapper">
+
+                   <div class="portfolio-item-wrapper">
+                      <div class="portfolio-img-background" style="background-image: url(images/thevamps1.JPG);"></div>
+                        <div class="text-block"> 
+                            <h4>The Vamps</h4>
+                            <h5>Sep 14 2021</h5>
+                            <p>Cherry Blossom tour</p>
+                        </div>
+
+                      <div class="img-text-wrapper">
+                          <div class="subtitle">
+                        </div>
+                     </div>
+                     
+                    <figcaption>The Vamps 2021</figcaption>
+                    </div>
+                    <div class="portfolio-item-wrapper">
+                        <div class="portfolio-img-background" style="background-image: url(images/AJR2.JPG);"></div>
+                            <div class="text-block"> 
+                                <h4>AJR</h4>
+                                <h5>2019</h5>
+                                <p>UK Tour</p>
+                            </div>
+  
+                        <div class="img-text-wrapper">
+                            <div class="subtitle">
+                          </div>
+                       </div>
+                       <figcaption>AJR 2019</figcaption>
+                    </div>
+                    <div class="portfolio-item-wrapper">
+                        <div class="portfolio-img-background" style="background-image: url(images/BMTH3.jpg);"></div>
+                        <div class="text-block"> 
+                            <h4>BMTH</h4>
+                            <p>Live at the o2 arena</p>
+                        </div> 
+  
+                        <div class="img-text-wrapper">
+                            <div class="subtitle">
+                          </div>
+                       </div>
+                       <figcaption>London 2021</figcaption>
+                    </div>
+                    <div class="portfolio-item-wrapper">
+                        <div class="portfolio-img-background" style="background-image: url(images/YMA61.JPG);"></div>
+                        <div class="text-block"> 
+                            <h4>You Me At 6</h4>
+                            <p>Post Human Tour</p>
+                            <h6>support act</h6>
+                        </div> 
+  
+                        <div class="img-text-wrapper">
+                            <div class="subtitle">
+                          </div>
+                       </div>
+                       <figcaption>London 2021</figcaption>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="sliding-images-wrapper">
+                <div class="sliding-image-wrapper">
+                    <a href ="about.html"><img src="images/thevamps2.jpg" alt="something"></a>
+                    <div class="centered2"><a href="about.html">Discover Who We Are</a></div>
+                    <div class="belowCentered"><a href="about.html">About us</div></a>              
+                </div>
+            </div> -->
+            <div class="journal-heading-wrapper">
+                <h3>Live concert reviews And Galleries</h3>
+            </div>
+            <div class="interviews-wrapper">
+                <div class="interview-wrapper">
+                    <div class="interview-img">
+                        <a href ="bmth.html"><img src="images/journal2.JPG" alt="something"></a>
+                        <h3>Bring Me The Horizon</h3>
+                        <p>Bring Me the Horizon are a British rock band formed in Sheffield in 2004. 
+                            The group consists of lead vocalist Oliver Sykes, guitarist Lee Malia, bassist 
+                            Matt Kean, drummer Matt Nicholls and keyboardist Jordan Fish. ...</p>
+                        <a href="bmth.html"><p2>View Gallery</p2></a>
+                    </div>
+                </div>
+                <div class="interview-wrapper">
+                    <div class="interview-img">
+                        <a href ="vamps.html"><img src="images/journal4.JPG" alt="something"></a>
+                        <h3>The Vamps</h3>
+                        <p>The Vamps are a British pop band consisting of Brad Simpson, James Brittain-McVey,
+                             Connor Ball and Tristan Evans. They formed in 2012 and signed to Mercury Records
+                              in the November of the same year. In 2017, they had their first number 1 on the 
+                              UK Albums Chart with Night & Day...
+                        </p>
+                        <a href="vamps.html"><p2>View Gallery</p2></a>
+                    </div>
+                </div>
+            </div>
+</body>
+<script>
+        function animateMenu(x) {
+  x.classList.toggle("change");
+}
+    function openMenu(){
+        document.getElementById("menus").style.width="100%";
+      }
+    function closeMenu(){
+        document.getElementById("menus").style.width="0%";
+      }
+
+
+
+        function myFunction(x) {
+  x.classList.toggle("change");
+}
+    const x = document.querySelectorAll('.portfolio-item-wrapper')
+
+    x.forEach(portfolioItem => {
+        portfolioItem.addEventListener('mouseover', () => {
+            // console.log(portfolioItem);
+            portfolioItem.childNodes[1].classList.add('img-darken');
+
+        })
+        portfolioItem.addEventListener('mouseout', () => {
+            // console.log(portfolioItem);
+            portfolioItem.childNodes[1].classList.remove('img-darken');
+
+        })
+    })
+</script>
+</html>
