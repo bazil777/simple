@@ -1105,3 +1105,118 @@ html{
     box-sizing: border-box;
     right: 0;
 }
+
+/* //new about page style */
+
+.body-about{
+    font-family: serif;
+    display: grid;
+    background-color: #f4f4f4;
+    align-content: center;
+    min-height: 100vh;
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 90vh;
+    width: 85vw;
+    margin: 0 auto;
+}
+
+.image-about{
+    background: url("images/BMTH1.JPG")center/cover no-repeat;
+
+}
+
+.content-about{
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.content-about h2{
+    text-transform: uppercase;
+    font-size: 36px;
+    letter-spacing: 6px;
+}
+
+.content-about span{
+    height: 0.5px ;
+    width: 80px;
+    background: #777;
+    margin: 30px 0;
+
+}
+
+.content-about p{
+    padding-bottom: 15px;
+    font-weight: 300;
+    opacity: 0.7;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.7;
+}
+
+.links-about{
+    margin: 15px 0;
+}
+.links-about li{
+    list-style: none;
+    border: 0.5px solid #777;
+    border-radius: 5px;
+    padding: 10px 15px;
+    width: 160px;
+    text-align: center;
+}
+
+.links-about li a{
+    text-transform: uppercase;
+    color: #777;
+    text-decoration: none;
+}
+.links-about li:hover{
+    border-color: #006;
+}
+.links-about li:hover a{
+    color: #006;
+}
+
+.vertical-line-about{
+    height: 30px;
+    width: 0.5px;
+    background: #777;
+    margin: 0 auto;
+}
+@media(max-width: 992px){
+    section{
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .image-about{
+        height: 100vh;
+    }
+    .content-about{
+        height: 100vh;
+    }
+    .content-about h2{
+        font-size: 20px;
+        margin-top: 50px;
+    }
+    .content-about span{
+        margin: 20px 0;
+    }
+    .content-about p{
+        font-size: 14px;
+    }
+    .links-about a{
+        font-size: 14px;
+    }
+    .links-about{
+        margin: 5px 0;
+    }
+    .links-about li{
+        padding: 6px 10px;
+    }
+}
