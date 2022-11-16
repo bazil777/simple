@@ -120,6 +120,7 @@ body{
     text-align: center;
     margin-top: 30px;
 }
+
 .test-overlay a{
     padding: 8px;
     text-decoration: none;
@@ -129,7 +130,7 @@ body{
     transition: 0.3s;
 }
 .test-overlay a:hover{
-    color: #fff;
+    color: rgb(163, 163, 163);
 
 }
 .test-overlay .test-close{
