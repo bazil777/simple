@@ -770,7 +770,7 @@ html{
     bottom: 40%;
     right: 30%;
     background-color: antiquewhite;
-    color: black;
+    color: rgb(255, 255, 255);
     padding-left: 1em;
     padding-right: 1em;
   }
@@ -839,8 +839,10 @@ html{
   }
 
 /* // homepage beta */
+
+/* background 5 not bad */
 .cover{
-    background-image: url(images/BMTH7.JPG);
+    background-image: url(images/background6.jpg);
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -967,6 +969,7 @@ html{
     margin: 0 1em;
     grid-template-columns: 10% 2fr 10px 2fr 20%;
     grid-auto-flow: row dense;
+    color: #ffffff;
 }
 
 @media screen and (min-width: 700px){
